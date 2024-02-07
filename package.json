@@ -1,8 +1,8 @@
 {
-  "name": "Project Pizza",
+  "name": "ProjectPizza",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Svetlana2505.github.io/Project Pizza",
+  "homepage": "https://Svetlana2505.github.io/ProjectPizza/",
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",

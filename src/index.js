@@ -7,7 +7,7 @@ import { store } from 'redux/store';
 import { Provider } from 'react-redux';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <BrowserRouter basename="/Project Pizza/">
+  <BrowserRouter basename="/ProjectPizza/">
     <Provider store={store}>
       <App />
     </Provider>
