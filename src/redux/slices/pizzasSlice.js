@@ -26,7 +26,6 @@ export const pizzasSlice = createSlice({
     builder
       .addCase(fetchPizzas.pending, state => {
         state.status = 'loading';
-        // state.pizzas = [];
       })
       .addCase(fetchPizzas.fulfilled, (state, { payload }) => {
         state.pizzas = payload;

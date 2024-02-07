@@ -1,5 +1,5 @@
 import React from 'react';
-import { List, Item, Wrapper } from './index.styled';
+import { List, Item } from './index.styled';
 import { useDispatch, useSelector } from 'react-redux';
 import { setCategoryId } from 'redux/slices/filterSlice';
 

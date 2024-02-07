@@ -1,15 +1,5 @@
 import styled from 'styled-components';
 
-export const Wrapper = styled.div`
-  /* @media (min-width: 768px) {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: baseline;
-    margin-bottom: 32px;
-  } */
-`;
-
 export const List = styled.ul`
   display: flex;
   justify-content: center;
