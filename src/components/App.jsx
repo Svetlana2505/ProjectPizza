@@ -1,29 +1,23 @@
-import { Form } from './Form/Form';
+import { Header } from './Header';
 import { Container } from './Container';
-import { Data } from './Data/Data';
-import { Wrapper } from './Data/Data.styled';
+import { Home } from 'pages/Home';
+import { Routes, Route } from 'react-router-dom';
+import { Cart } from 'pages/Cart';
+import { NotFound } from 'pages/NotFound';
 import { useState } from 'react';
-import { fetch } from './api';
 
 export const App = () => {
-  const [weather, setWeather] = useState([]);
-  const [location, setLocation] = useState('');
-
-  const fetchWeather = async () => {
-    const { data } = await fetch(location);
-    setWeather(data);
-  };
-
+  const [search, setSearch] = useState('');
   return (
-    <Wrapper>
+    <div>
       <Container>
-        <Form
-          setLocation={setLocation}
-          location={location}
-          fetchWeather={fetchWeather}
-        />
-        <Data weather={weather} />
+        <Header search={search} setSearch={setSearch} />
+        <Routes>
+          <Route path="/" element={<Home search={search} />} />
+          <Route path="/cart" element={<Cart />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
       </Container>
-    </Wrapper>
+    </div>
   );
 };
