@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Project%20Pizza/static/css/main.d269893c.css",
-    "main.js": "/Project%20Pizza/static/js/main.71586b42.js",
-    "static/media/logo.svg": "/Project%20Pizza/static/media/logo.cf6d3b6be905864076d6bda85444ef62.svg",
-    "static/media/basket.png": "/Project%20Pizza/static/media/basket.d8d93da2f1e31ea67c95.png",
-    "static/media/basketPage.svg": "/Project%20Pizza/static/media/basketPage.dcd5168086a25b3307ba9f5524ca6e70.svg",
-    "static/media/basket.svg": "/Project%20Pizza/static/media/basket.d05720f2b474db2145233cd2ce1d4e91.svg",
-    "static/media/clearBasket.svg": "/Project%20Pizza/static/media/clearBasket.ceafcffb34cece0b1462c3505b170d88.svg",
-    "index.html": "/Project%20Pizza/index.html",
-    "static/media/path.svg": "/Project%20Pizza/static/media/path.fc29ec73901b6f8218c91a0d69592416.svg",
-    "main.d269893c.css.map": "/Project%20Pizza/static/css/main.d269893c.css.map",
-    "main.71586b42.js.map": "/Project%20Pizza/static/js/main.71586b42.js.map"
+    "main.css": "/ProjectPizza/static/css/main.d269893c.css",
+    "main.js": "/ProjectPizza/static/js/main.f3726e3f.js",
+    "static/media/logo.svg": "/ProjectPizza/static/media/logo.cf6d3b6be905864076d6bda85444ef62.svg",
+    "static/media/basket.png": "/ProjectPizza/static/media/basket.d8d93da2f1e31ea67c95.png",
+    "static/media/basketPage.svg": "/ProjectPizza/static/media/basketPage.dcd5168086a25b3307ba9f5524ca6e70.svg",
+    "static/media/basket.svg": "/ProjectPizza/static/media/basket.d05720f2b474db2145233cd2ce1d4e91.svg",
+    "static/media/clearBasket.svg": "/ProjectPizza/static/media/clearBasket.ceafcffb34cece0b1462c3505b170d88.svg",
+    "index.html": "/ProjectPizza/index.html",
+    "static/media/path.svg": "/ProjectPizza/static/media/path.fc29ec73901b6f8218c91a0d69592416.svg",
+    "main.d269893c.css.map": "/ProjectPizza/static/css/main.d269893c.css.map",
+    "main.f3726e3f.js.map": "/ProjectPizza/static/js/main.f3726e3f.js.map"
   },
   "entrypoints": [
     "static/css/main.d269893c.css",
-    "static/js/main.71586b42.js"
+    "static/js/main.f3726e3f.js"
   ]
 }
